@@ -68,8 +68,8 @@ class Serial(object):
         """Try to find the port."""
         ports = list(serial.tools.list_ports.comports())
 
-        # On the Pi the USB xFlight controller appears before the LCD.
-        for port in sorted(ports):
+        # Almost always is at the "end" in alphabetical order. YMMV.
+        for port in sorted(ports, reverse=True):
             try:
                 conn = serial.Serial(
                     port.device,
