@@ -5,13 +5,9 @@ Some basic python-based command-line tools to interact with the BetaFlight
 
 ## Install
 
-You need Python 3.6 on a Raspberry Pi.
+You need Python 3.6.
 
     pip install -r requirements.txt
-
-I'm using /dev/ttyAMA0 for the serial port, you'll need to allow access by
-turning off the getty stuff (Google is your friend, this changes per Raspbian
-version).
 
 ## Usage
 
