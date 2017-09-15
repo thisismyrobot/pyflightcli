@@ -40,5 +40,5 @@ Only tested against Betaflight 3.1.7 so far.
 
 ## Errata
 
-I've used "xFlight" to refer to all the similar version so I don't have to
-list them all.
+I've used "xFlight" to refer to all the related forks so I don't have to list
+them all.
